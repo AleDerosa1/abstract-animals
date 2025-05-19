@@ -4,6 +4,8 @@ public abstract class Animale {
     private String nome;
     private String tipologia;
 
+
+    //COSTRUTTORE
     public Animale (String nome, String tipologia){
         this.nome = nome;
         this.tipologia = tipologia;
@@ -27,8 +29,15 @@ public abstract class Animale {
         this.tipologia = tipologia;
     }
 
+
+    //METODO
     public void dorme(){
         System.out.println("Zzzzz");
     }
+
+    public abstract void mangia();
+    
+
+    public abstract void verso();
     
 }
