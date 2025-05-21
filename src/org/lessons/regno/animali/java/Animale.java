@@ -36,8 +36,13 @@ public abstract class Animale {
     }
 
     public abstract void mangia();
-    
+
 
     public abstract void verso();
+
+      @Override
+    public String toString() {
+        return "L'animale: " + this.nome + " è un " + this.tipologia;
+    }
     
 }
